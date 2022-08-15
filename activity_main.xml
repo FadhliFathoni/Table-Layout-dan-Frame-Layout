@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    >
+<TableRow>
+    <TextView
+        android:id="@+id/Texttable"
+        android:layout_weight="1"
+        android:background="#b0b0b0"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Row 3 Column 1"
+        android:textColor="#000000"
+        android:textStyle="bold"
+         />
+    <TextView
+        android:id="@+id/Texttable2"
+        android:layout_weight="1"
+        android:background="#a09f9f"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Row 3 Column 2"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+</TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/row4"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Row 4 Column 3"
+            android:background="#545DED"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow
+        android:background="@color/black"
+        >
+        <TextView
+            android:layout_weight="0"
+            android:padding="20dp"
+            android:layout_marginRight="7px"
+            android:text="Row 5 col 4"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#FFD500"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Row 5 col 5"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#FFD500"
+            android:layout_marginRight="7px"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:padding="20dp"
+
+            android:text="Row 5 col 6"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#FFD500"/>
+    </TableRow>
+</TableLayout>
